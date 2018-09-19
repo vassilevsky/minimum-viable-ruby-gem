@@ -18,6 +18,10 @@ https://guides.rubygems.org/make-your-own-gem/
 
 You don't have to use Bundler to build gems. You can write a gemspec and build it by hand.
 
+## Testing
+
+    rspec
+
 ## Building
 
     gem build thing.gemspec

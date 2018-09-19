@@ -6,4 +6,6 @@ Gem::Specification.new do |gem|
   gem.author   = 'Ilya Vassilevsky'
   gem.license  = 'MIT'
   gem.files    =  Dir.glob('lib/**/*')
+
+  gem.add_development_dependency 'rspec', '~> 3.0'
 end
