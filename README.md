@@ -24,7 +24,7 @@ You don't have to use Bundler to build gems. You can write a gemspec and build i
 
 ## Usage
 
-```
+```ruby
 require 'thing'
 
 thing = Thing.new
